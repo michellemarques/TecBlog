@@ -1,0 +1,138 @@
+body {
+    font-size: 1em;
+    font-family: 'Arial Narrow Bold', sans-serif;
+    background-color: #e6e6e6;
+}
+
+/* **** Layout **** */
+
+#area-cabecalho{
+    background-color: #f7b600;
+    padding: 15px;
+    text-align: center;
+    font-size: 1.2em;
+}
+.area-logo, .area-menu{
+    padding: 10px;
+}
+.area-principal{
+    width: 1024px;
+    margin: 0 auto;
+    padding: 15px;
+}
+.area-postagens{
+    width: 700px;
+    float: left;
+}
+.conteudo-lateral {
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.area-lateral{
+    width: 300px;
+    float: right;
+    margin-right: 50px;
+}
+
+.postagem {
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: white;
+}
+
+.postagem a {
+    font: 0.9em;
+}
+
+.postagem-lateral {
+    /* border-bottom: 1px solid #CCC; */
+    padding: 10px;
+}
+.rodape {
+    clear: both; /* remove o fluxo dos elementos flutuantes */
+    text-align: center;
+    padding: 15px;
+    background-color:#CCC;
+}
+
+
+/* **** Formatação Menu **** */
+a{
+    text-decoration: none;
+}
+
+a:link,a:visited {
+    color: #f7b600;
+}
+a:hover {
+text-decoration: underline;
+}
+.area-menu > a {
+    font-size: 1.2em;
+}
+
+#area-cabecalho a:link, #area-cabecalho a:visited {
+    color: #fff;
+    padding: 8px 12px;
+}
+#area-cabecalho a:hover {
+    color: #f7b600;
+    background-color: #fff;
+    text-decoration: none;
+}
+ 
+/* **** Formatações Gerais **** */
+
+h1{
+    color: #4e4e4e;
+    font-size: 2.5em;
+}
+
+h2{
+   color: #f7b600;
+   font-size: 1.6em;
+}
+
+h3{
+    color: #565656;
+    background-color: #CCC;
+    padding: 6px;
+    text-align: center;
+    font-size: 1.2em;
+ }
+
+.branco {
+    color: white;
+}
+
+.data-postagem{
+    font-size: 0.8em;
+    border-bottom: 1px solid #f4f4f4;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.p-lateral, .l-lateral1 {
+    font-size: 0.9em;
+    text-align: center;
+    padding: 10px;
+}
+
+li, .l-lateral{
+    font-size: 16px;
+    margin-top: 10px;
+    list-style: none;
+    display: inline-grid;
+}
+
+.l-lateral, a {
+    padding: 5px;
+}
+p{
+    padding: 5px;
+    font-size: 18px;
+}
+
